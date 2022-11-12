@@ -4,6 +4,7 @@
         "start": "vite"
     },
     "devDependencies": {
+        "cypress": "^11.0.1",
         "eslint": "^8.27.0",
         "eslint-config-standard": "^17.0.0",
         "eslint-plugin-import": "^2.26.0",
