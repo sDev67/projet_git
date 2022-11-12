@@ -1,7 +1,9 @@
 {
     "private": true,
     "scripts": {
-        "start": "vite"
+        "start": "vite",
+        "test": "npx cypress run",
+        "lint-js": "npx eslint sources/js/*.js"
     },
     "devDependencies": {
         "cypress": "^11.0.1",
