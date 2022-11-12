@@ -27,4 +27,4 @@ Select your favorite fruit:
 
 <p id="demo"></p>
 `
-document.getElementById('myBtn').addEventListener('click', getOption)
+document.getElementById('myBtn').addEventListener("click", getOption)
