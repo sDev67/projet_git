@@ -4,7 +4,7 @@
         "start": "vite",
         "test": "npx cypress run",
         "lint-js": "npx eslint sources/js/*.js",
-        "install": "cp .githooks/* .git/hooks/"
+        "install": "git config core.hooksPath .githooks"
     },
     "devDependencies": {
         "cypress": "^11.0.1",
