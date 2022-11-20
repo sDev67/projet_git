@@ -113,8 +113,17 @@ On indique qui sont les utilisateurs qui peuvent effectuer des pushs forcés <br
 *To complete*
 
 ### Avec la commande "git push" -> push sur les 2 remote (github + gitlab)
-*To complete*
-
+Pour push sur deux remote à la fois avec un git push il faut dans un premier temps ajouter les deux remote : 
+```
+git remote add github https://github.com/sDev67/projet_git.git
+git remote add gitlab https://gitlab.com/hkanoute/projet_git.git
+```
+Une fois cela fait, il faut indiquer sur quel remote psuh : 
+```
+git remote set-url --add --push origin https://github.com/sDev67/projet_git.git
+git remote set-url --add --push origin https://gitlab.com/hkanoute/projet_git.git
+```
+Une fois cela fait, vous pouvez push sur les deux remotes avec un git push.
 
 ## About The Project
 
