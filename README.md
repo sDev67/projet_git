@@ -19,6 +19,9 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
+      <a href="#project-delivery">Project Delivery</a>
+    </li>
+    <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
@@ -34,6 +37,84 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
+
+## Project delivery
+
+### Commits signés de tous les membres et sur tous les commits
+Pour cela, on installe premièrement https://www.gnupg.org/download/ et on crée notre clé GPG<br>
+On effectue la commande `gpg --full-generate-key` <br>
+Puis on choisi `clé RSA` parmi les clés proposées <br>
+Ensuite on indique la taille de la clé : `4096` <br>
+Puis on sélectionne `0` pour que la clé ne s'expire jamais <br>
+Puis on confirme que les informaitions sont correctes avec un `y` <br>
+Ensuite on renseigne le nom d'utilisateur qui doit être identique au nom présent dans la config, l'adresse mail, et un commentaire <br>
+Pour finaliser la création de la clé, il faut choisir : `o` <br>
+Après avoir renseigné cela, toujours dans le terminal, on saisi la commande `gpg --list-secret-keys --keyid-format=long` <br>
+On copie l'identifiant situé après le slash dans la ligne `sec` <br>
+Puis on execute la commande `gpg --armor --export L862717XYZ98P123` avec L86.... l'identifiant copié au préalable <br> <br>
+Puis on renseigne cette clé sur github. <br>
+  - Aller dans les paramètres <br>
+![setting_image](./images/screen_setting.PNG) <br> 
+  - puis SSH and GPG keys <br>
+![onglet_ssh_gpg_image](./images/screen_onglet_ssh_gpg.PNG)<br> 
+puis ajouter une nouvelle clé GPG <br>
+![nouvelle clé gpg](./images/screen_new_gpg_key.PNG) <br>
+
+Après avoir ajouté la clé sur github, il faut ajouter dans la config de notre terminal, les informations de cette clé. <br>
+Faire : `git config --global user.signinkey {identifiant}` <br>
+Puis, pour que chaque commits soit signés, executer la commande : `git config --global commit.gpgsign true` <br>
+Ainsi, tous nos prochains commit seront automatiquement signé
+
+### Issue + issue templates
+*To complete*
+### Merge Request + Merge Request template
+*To complete*
+### Github project
+*To complete*
+### Un readme, contributing, code of conduct correctement rédigés
+*To complete*
+### Un .gitignore cohérent
+*To complete*
+### Respect du Git flow (les bonnes branches et les bonnes protection de branche)
+Mise en place de branches feature/xxxx, develop et hotfix <br>
+Pour avoir un environnement de travail et une branche main sécurisé, il faut mettre en place quelques règle pour la protection. <br>
+  - Pour cela aller dans `setting` de votre repo <br>
+![repo setting](./images/screen_repo_setting.PNG) <br>
+  - Puis dans `branch` <br>
+![branch](./images/screen_branch.PNG) <br>
+  - Puis vous pouvez ajouter une nouvelle règle sur la branche souhaité, éditer vos règles déjà présente ou bien supprimer des protections déjà existante <br>
+![new rule](./images/screen_new_rule.PNG) <br>
+
+Dans la branche `main`, on a décidé de mettre les règles suivantes : <br>
+- `Require a pull request before merging` <br>
+Cette règle nous oblige à effectuer une pull/merge request avant de merger sur la branche main <br>
+- `Require approvals` <br>
+Après avoir effectuer une pull request, on doit avoir au moins 1 personne qui approuve la pull request <br>
+- `Require status checks to pass before merging` <br>
+Permet de merge uniquement lorsque tous les tests sont passés <br>
+- `Require branches to be up to date before merging` <br>
+Oblige à avoir la dernière version avant de pouvoir merge <br>
+- `Require signed commits` <br>
+Les commits effectués sur main doivent tous être signés <br>
+- `Require deployments to succeed before merging` <br>
+*to complete* <br>
+- `Allow force pushes` <br>
+Nous autorise à effectuer des pushs forcés. <br>
+- `Specify who can force push` <br>
+On indique qui sont les utilisateurs qui peuvent effectuer des pushs forcés <br>
+
+### Un hooks qui vérifie un code js (linter) 
+*To complete*
+
+### Une CI / Github Actions
+*To complete*
+
+### Synchro sur un repo gitlab
+*To complete*
+
+### Avec la commande "git push" -> push sur les 2 remote (github + gitlab)
+*To complete*
+
 
 ## About The Project
 
