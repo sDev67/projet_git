@@ -1,0 +1,20 @@
+#!/bin/sh
+
+read -p "Have the feature been tested? (y/N):" answer
+   if [[ "$answer" != "y" ]]; then
+      exit 1
+   fi
+read -p "Have you updated your Jira? (y/N):" answer
+   if [[ "$answer" != "y" ]]; then
+      exit 1
+   fi
+read -p "Have you created a test version? (y/N):" answer
+   if [[ "$answer" != "y" ]]; then
+      exit 1
+   fi
+read -p "Have you done that task you should have done? (y/N):" answer
+   if [[ "$answer" != "y" ]]; then
+      exit 1
+   fi
+  
+exit 0
