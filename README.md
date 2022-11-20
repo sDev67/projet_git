@@ -1,3 +1,14 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![Commits][commit-shield]][commit-url]
+[![Integration tests][build-shield]][build-url]
+[![Licence][licence-shield]][licence-url]
+[![Website][website-shield]][website-url]
+[![Build][milestones1-shield]][milestones1-url]
+[![Finetunning][milestones2-shield]][milestones2-url]
+
 <br />
 <p align="center">
 
@@ -215,3 +226,24 @@ npm run lint-js
 - [![website](https://img.shields.io/badge/website-2300843e?style=for-the-badge&logo=ko-fi&logoColor=white)](http://serkan-deveci.herokuapp.com/fr)
 - [![github](https://img.shields.io/badge/sDev67-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChrisBradford2)
 - [![linkedin](https://img.shields.io/badge/Serkan_Deveci-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/serkan-deveci-6086aa217/)
+
+[contributors-shield]: https://img.shields.io/github/contributors/sDev67/projet_git.svg?style=for-the-badge
+[contributors-url]: https://github.com/sDev67/projet_git/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/sDev67/projet_git.svg?style=for-the-badge
+[forks-url]: https://github.com/sDev67/projet_git/network/members
+[stars-shield]: https://img.shields.io/github/stars/sDev67/projet_git.svg?style=for-the-badge
+[stars-url]: https://github.com/sDev67/projet_git/stargazers
+[issues-shield]: https://img.shields.io/github/issues/sDev67/projet_git.svg?style=for-the-badge
+[issues-url]: https://github.com/sDev67/projet_git/issues
+[build-shield]: https://img.shields.io/github/workflow/status/sDev67/projet_git/Node.js%20CI?style=for-the-badge
+[build-url]: https://github.com/sDev67/projet_git/actions/workflows/node.js.yml
+[licence-shield]: https://img.shields.io/github/license/sDev67/projet_git?style=for-the-badge
+[licence-url]: https://github.com/sDev67/projet_git/blob/main/LICENSE
+[website-shield]: https://img.shields.io/website?down_color=red&down_message=down&style=for-the-badge&url=https%3A%2F%2Fchrisbradford2.github.io%projet_git%2F
+[website-url]: https://venom-linux.xyz
+[milestones1-shield]: https://img.shields.io/github/milestones/progress-percent/sDev67/projet_git/1?style=for-the-badge
+[milestones1-url]: https://github.com/sDev67/projet_git/milestone/1
+[milestones2-shield]: https://img.shields.io/github/milestones/progress-percent/sDev67/projet_git/2?style=for-the-badge
+[milestones2-url]: https://github.com/sDev67/projet_git/milestone/2
+[commit-shield]: https://img.shields.io/github/commit-activity/m/sDev67/projet_git?style=for-the-badge
+[commit-url]: https://github.com/sDev67/projet_git/commits/
