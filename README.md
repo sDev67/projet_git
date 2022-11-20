@@ -80,7 +80,7 @@ Mise en place de branches feature/xxxx, develop et hotfix <br>
 Pour avoir un environnement de travail et une branche main sécurisé, il faut mettre en place quelques règle pour la protection. <br>
   - Pour cela aller dans `setting` de votre repo <br>
 ![repo setting](./images/screen_repo_setting.PNG) <br>
-  - Puis dans `branch` <br>
+  - Puis dans `branches` <br>
 ![branch](./images/screen_branch.PNG) <br>
   - Puis vous pouvez ajouter une nouvelle règle sur la branche souhaité, éditer vos règles déjà présente ou bien supprimer des protections déjà existante <br>
 ![new rule](./images/screen_new_rule.PNG) <br>
