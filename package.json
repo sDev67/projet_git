@@ -1,0 +1,19 @@
+{
+    "private": true,
+    "scripts": {
+        "start": "vite",
+        "test": "npx cypress run",
+        "lint-js": "npx eslint sources/js/*.js",
+        "install": "git config core.hooksPath .githooks"
+    },
+    "devDependencies": {
+        "cypress": "^11.0.1",
+        "eslint": "^8.27.0",
+        "eslint-config-standard": "^17.0.0",
+        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-n": "^15.5.1",
+        "eslint-plugin-promise": "^6.1.1",
+        "sass": "^1.56.1",
+        "vite": "3.1.3"
+    }
+}
