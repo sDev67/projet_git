@@ -183,9 +183,9 @@ Nous avons créé un fichier `CODE_OF_CONDUCT.md` qui contient les règles de bo
 
 - [CODE_OF_CONDUCT](./.github/CODE_OF_CONDUCT.md)
 
-### Un .gitignore cohérent
+### .gitignore
 
-*To complete*
+Puisque notre projet est un projet *Node.js*, nous avons utilisé un template de `.gitignore` pour *Node.js* disponible sur [gitignore.io](https://www.toptal.com/developers/gitignore/api/node). Ce template permet d'ignorer les fichiers et dossiers qui ne sont pas utiles pour le projet.
 
 ### Respect du Git flow (les bonnes branches et les bonnes protection de branche)
 
