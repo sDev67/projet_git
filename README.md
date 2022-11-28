@@ -274,6 +274,10 @@ Lorsque la Github Action a terminé, elle nous donne le résultat des tests d'in
 - Si les tests sont annulés, la Github Action est gris.
 - Si les tests sont en attente, la Github Action est bleu.
 
+#### CodeQL
+
+CodeQL est un outil de sécurité qui permet de détecter les failles de sécurité dans le code. Nous avons utilisé CodeQL afin de détecter les failles de sécurité dans notre code.
+
 ### Synchro sur un repo gitlab
 
 **Avec la commande "git push" -> push sur les 2 remote (github + gitlab)**
