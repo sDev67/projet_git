@@ -241,7 +241,38 @@ Cette regex verifie que le message de commit commence par un hashtag, le numéro
 
 ### Github Actions
 
-*To complete*
+Nous avons utilisé Github Actions pour automatiser les tests d'intégration et les tests unitaires. Nous avons utilisé le template `Node.js` disponible sur Github. Ce template permet de lancer les tests d'intégration et les tests unitaires à chaque push sur une branche. Il permet également de lancer les tests d'intégration et les tests unitaires à chaque pull request.
+
+Voici une explication de chaque étape du fichier `nodejs.yml` :
+
+- `name` : nom de l'action
+- `on: push` : Lorsqu'il y a un push sur une branche, la Github Action est lancée.
+- `on: push: branches: [ main ]` : Lorsqu'il y a un push sur la branche main, la Github Action est lancée.
+- `on: pull_request` : Lorsqu'il y a une pull request, la Github Action est lancée.
+- `jobs` : Les jobs sont les tâches à effectuer.
+- `jobs.build` : Le job `build` permet de lancer les tests d'intégration et les tests unitaires.
+- `jobs.build.runs-on` : Le job `build` est lancé sur un environnement `ubuntu-latest`.
+- `jobs.build.strategy.matrix.node-version` : La version de Node.js utilisée pour lancer les tests d'intégration et les tests unitaires (ici la version 14, 16 et 18).
+- `jobs.build.steps` : Les étapes du job `build`.
+- `jobs.build.steps.uses: actions/checkout@v3` : Cette action permet de récupérer le code du projet.
+- `jobs.build.steps.name` : Le nom des actions à effectuer dans les étapes du job `build`.
+- `jobs.build.steps.uses: actions/setup-node@v1` : Cette action permet d'installer Node.js.
+- `jobs.build.steps.with` : Les paramètres à donner aux actions à effectuer dans les étapes du job `build`.
+- `jobs.build.steps.run` : Les commandes à effectuer dans les étapes du job `build`.
+
+Lorsque la Github Action est lancée, elle effectue les étapes suivantes :
+
+- `npm i` : Cette commande permet d'installer les dépendances du projet.
+- `npm run lint-js` : Cette commande permet de lancer EsLint.
+- `npm test` : Cette commande permet de lancer les tests d'intégration.
+
+Lorsque la Github Action a terminé, elle nous donne le résultat des tests d'intégration et des tests unitaires: 
+
+- Si les tests sont passés, la Github Action est verte.
+- Si les tests sont échoués, la Github Action est rouge.
+- Si les tests sont en cours, la Github Action est jaune.
+- Si les tests sont annulés, la Github Action est gris.
+- Si les tests sont en attente, la Github Action est bleu.
 
 ### Synchro sur un repo gitlab
 
