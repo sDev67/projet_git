@@ -34,13 +34,13 @@ Before creating bug reports, please check [this list](#before-submitting-a-bug-r
 
 Please check the following list:
 
-- **Ensure the bug was not already reported** by searching on GitHub under [**Issues**](https://github.com/iota-community/iota-wiki/issues). If the bug has already been reported **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
+- **Ensure the bug was not already reported** by searching on GitHub under [**Issues**](https://github.com/sDev67/projet_git/issues). If the bug has already been reported **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
 
 **Note:** If you find a **Closed** issue that seems similar to what you're experiencing, open a new issue and include a link to the original issue in the body of your new one.
 
 ### Submitting A Bug Report
 
-To report a bug, [open a new issue](https://github.com/iota-community/iota-wiki/issues/new), and be sure to include as many details as possible, using the template.
+To report a bug, [open a new issue](https://github.com/sDev67/projet_git/issues/new?assignees=&labels=bug&template=bug_report.yml&title=%5BBug%5D%3A+), and be sure to include as many details as possible, using the template.
 
 **Note:** Minor changes such as fixing a typo can but do not need an open issue.
 
@@ -60,11 +60,11 @@ Before creating a suggestion, please check [this list](#before-submitting-a-new-
 
 ### Before suggesting a new feature
 
-**Ensure the feature or topic has not already been suggested** by searching on GitHub under [**Issues**](https://github.com/iota-community/iota-wiki/issues).
+**Ensure the feature or topic has not already been suggested** by searching on GitHub under [**Issues**](https://github.com/sDev67/projet_git/issues).
 
 ### Suggesting a new feature or topic
 
-To suggest a new feature/topic, [open a new issue](https://github.com/iota-community/iota-wiki/issues/new), using the suggestion template.
+To suggest a new feature/topic, [open a new issue](https://github.com/sDev67/projet_git/issues/new?assignees=&labels=feature&template=feature_request.yml&title=%5BFEATURE%5D%3A+), using the suggestion template.
 
 </details>
 
@@ -78,7 +78,7 @@ This section guides you through adding a new feature or topic. Following these g
 
 ### Before adding a new feature/topic
 
-Check if there is already an [open issue](https://github.com/iota-community/iota-wiki/issues/) or [pull request (PR)](https://github.com/iota-community/iota-wiki/pulls), related to your feature/topic.
+Check if there is already an [open issue](https://github.com/sDev67/projet_git/issues) or [pull request (PR)](https://github.com/sDev67/projet_git/issues/pulls), related to your feature/topic.
 
 Otherwise, your feature may not be approved at all.
 
