@@ -152,16 +152,7 @@ This repo is a project rendering that serves to demonstrate the good practices o
     npm start # Start the server
     ```
 
-4. Open [http://localhost:8000/](http://localhost:8000/)
-
-### Run styles compilation
-
-Style compilation is made with **Sass**. To run it, use :
-
-```bash
-$ cd sources
-/sources $ sass --watch scss/styles.scss css/style.css
-```
+4. Open [http://localhost:8000/](http://localhost:8000/) to view it in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
 
 ### Run tests
 
