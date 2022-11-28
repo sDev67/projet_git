@@ -138,7 +138,7 @@ Une fois cela fait, vous pouvez push sur les deux remotes avec un git push.
 
 ## About The Project
 
-*To complete*
+This repo is a project rendering that serves to demonstrate the good practices of Git and Gihub.
 
 ### Built With
 
@@ -146,6 +146,10 @@ Une fois cela fait, vous pouvez push sur les deux remotes avec un git push.
 - Scss
 - JavaScript
 - Vite
+
+### License
+
+[MIT](https://github.com/sDev67/projet_git/blob/feature/readme/LICENSE)
 
 <!-- GETTING STARTED -->
 
