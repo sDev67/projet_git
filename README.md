@@ -165,9 +165,23 @@ Le template est fait en Markdown et permet de créer un template avec des inform
 
 ### Github project
 
-### Un readme, contributing, code of conduct correctement rédigés
+Afin d'oganiser nos issues et nos pull requests, nous avons créé un projet github. Il permet de créer des colonnes et de déplacer les issues et les pull requests dans ces colonnes. Nous nous sommes basé sur un template disponible sur github. Ce dernier propose 4 colonnes : `To do`, `In progress`, `Review in progress` et `Done`. Nous avons ajouté une colonne `Backlog` pour les issues qui ne sont pas encore prêtes à être traitées et `Ready` pour les issues qui sont prête à être intégré dans le prochain sprint.
 
-*To complete*
+Également, le template de projet propose des tableaux pour trier les issues par ordre de priorité et de complexité.
+
+### Contribution guidelines and code of conduct
+
+#### Contribution guidelines
+
+Nous avons créé un fichier `CONTRIBUTING.md` qui contient les règles à respecter pour contribuer au projet. Il contient notamment les règles de nommage des branches, les règles de nommage des commits, les règles de nommage des pull requests et les règles de nommage des issues.
+
+- [CONTRIBUTING](./.github/CONTRIBUTING.md)
+
+#### Code of conduct
+
+Nous avons créé un fichier `CODE_OF_CONDUCT.md` qui contient les règles de bonne conduite à respecter pour contribuer au projet. Il contient notamment les règles de respect, les règles de politesse, les règles de respect de la vie privée et les règles de respect des droits d'auteur.
+
+- [CODE_OF_CONDUCT](./.github/CODE_OF_CONDUCT.md)
 
 ### Un .gitignore cohérent
 

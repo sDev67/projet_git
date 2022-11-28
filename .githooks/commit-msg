@@ -9,21 +9,13 @@ red="\e[31m"
 green="\e[32m"
 reset="\e[0m"
 
-function echo_in_green() {
-  printf "\033[0;32m%s\n\033[0m" "$*" >&2;
-}
-
-function echo_in_red() {
-  printf "\033[0;31m%s\n\033[0m" "$*" >&2;
-}
-
 # Get the commit message (the parameter we're given is just the path to the
 # temporary file which holds the message).
 commit_message=$(cat "$1")
 
 # Check the message, if we match, all good baby.
 if [[ "$commit_message" =~ $convetional_commit_regex ]]; then
-   printf "${green}Commit message meets Conventional Commit standards...\n"
+   printf "${green}Commit message meets Conventional Commit standards ! \n"
    printf "\n${reset}"
    exit 0
 fi

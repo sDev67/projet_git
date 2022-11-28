@@ -366,3 +366,22 @@ As soon as you have opened a pull request for the content, link the issue to thi
 Enjoy contributing and if you have any questions or ideas send us an issue!
 
 </details>
+
+
+- Les branches doivent être nommées de la manière suivante : `type/nom_de_la_branche` où `type` est le type de la branche (feature, bugfix, hotfix, chore, docs, refactor, style, test) et `nom_de_la_branche` est le nom de la branche.
+
+- Les commits doivent être nommés de la manière suivante : `type: description` où `type` est le type du commit (feat, fix, docs, style, refactor, test, chore) et `description` est la description du commit.
+
+- Les pull requests doivent être nommées de la manière suivante : `type: description` où `type` est le type de la pull request (feat, fix, docs, style, refactor, test, chore) et `description` est la description de la pull request.
+
+- Les issues doivent être nommées de la manière suivante : `type: description` où `type` est le type de l'issue (feat, fix, docs, style, refactor, test, chore) et `description` est la description de l'issue.
+
+- Les commits doivent être signés de tous les membres et sur tous les commits.
+
+- Les pull requests doivent être validées par au moins 2 membres du groupe.
+
+- Les pull requests doivent être mergées par le propriétaire de la branche.
+
+- Les pull requests doivent être mergées dans la branche `develop`.
+
+- Les pull requests doivent être mergées après avoir été validées.
