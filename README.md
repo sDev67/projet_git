@@ -218,11 +218,28 @@ Nous autorise à effectuer des pushs forcés. <br>
 - `Specify who can force push` <br>
 On indique qui sont les utilisateurs qui peuvent effectuer des pushs forcés <br>
 
-### Un hooks qui vérifie un code js (linter) 
+### Githooks
 
-*To complete*
+#### Pre-commit
 
-### Une CI / Github Actions
+Le pre-commit permet d'effectuer des actions avant chaque commit. Nous avons utilisé le pre-commit pour lancer les tests unitaires et les tests d'intégration avant chaque commit.
+
+Nous avons dans notre projet un fichier `package.json` qui contient les scripts à lancer. Nous avons donc ajouté un script `test` qui lance les tests d'intégration et un script `lint-js` qui lance EsLint.
+
+```json
+"test": "npx cypress run",
+"lint-js": "npx eslint sources/js/*.js",
+```
+
+#### Commit-msg
+
+Le commit-msg permet d'effectuer des actions sur le message de commit. Nous avons utilisé le commit-msg pour vérifier que le message de commit respecte les règles de nommage.
+
+Nous avons donné dans le fichier `commit-msg` les règles de nommage des commits. Nous avons utilisé une regex pour vérifier que le message de commit respecte les règles de nommage.
+
+Cette regex verifie que le message de commit commence par un hashtag, le numéro d'issue, un espace, deux points, un espace et le nom du commit.
+
+### Github Actions
 
 *To complete*
 
