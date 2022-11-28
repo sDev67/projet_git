@@ -33,17 +33,72 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
+        <li><a href="#license">License</a></li>
       </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#local-development">Local Development</a></li>
+        <li><a href="#local-development">Local Development</a></li>
+        <li><a href="#run-tests">Run tests</a></li>
+        <ul>
+          <li><a href="#run-cypress">Run cypress</a></li>
+          <li><a href="#run-js-linter">Run js linter</a></li>
+        </ul>
       </ul>
     </li>
     <li>
       <a href="#project-delivery">Project Delivery</a>
+      <ul>
+        <li>
+          <a href="#commits-signés-de-tous-les-membres-et-sur-tous-les-commits">Commits signés de tous les membres et sur tous les commits</a>
+        </li>
+        <li>
+          <a href="#issue-+-issue-templates">Issue + issue templates</a>
+        </li>
+        <li>
+          <a href="#merge-request-+-merge-request-templates">Merge request + Merge request templates</a>
+        </li>
+        <li>
+          <a href="#github-project">Github project</a>
+        </li>
+        <li>
+          <a href="#contribution-guidelines-and-code-of-conduct">Contribution guidelines and code of conduct</a>
+          <ul>
+            <li>
+              <a href="#contribution-guidelines">Contribution guidelines</a>
+            </li>
+            <li>
+              <a href="#code-of-conduct">Code of conduct</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#gitignore">gitignore</a>
+        </li>
+        <li>
+          <a href="#respect-du-Git-flow-(les-bonnes-branches-et-les-bonnes-protection-de-branche)">Respect du Git flow (les bonnes branches et les bonnes protection de branche)</a>
+        </li>
+        <li>
+          <a href="#githooks">Githooks</a>
+          <ul>
+            <li>
+              <a href="#pre-commit">pre-commit</a>
+            </li>
+            <li>
+              <a href="#commit-msg">commit-msg</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#github-actions">Github actions</a>
+        </li>
+        <li>
+          <a href="#synchro-sur-un-repo-gitlab">Synchro sur un repo gitlab</a>
+        </li>
+      </ul>
     </li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -183,7 +238,7 @@ Nous avons créé un fichier `CODE_OF_CONDUCT.md` qui contient les règles de bo
 
 - [CODE_OF_CONDUCT](./.github/CODE_OF_CONDUCT.md)
 
-### .gitignore
+### gitignore
 
 Puisque notre projet est un projet *Node.js*, nous avons utilisé un template de `.gitignore` pour *Node.js* disponible sur [gitignore.io](https://www.toptal.com/developers/gitignore/api/node). Ce template permet d'ignorer les fichiers et dossiers qui ne sont pas utiles pour le projet.
 
