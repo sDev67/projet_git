@@ -258,7 +258,7 @@ Oblige à avoir la dernière version avant de pouvoir merge <br>
 - `Require signed commits` <br>
 Les commits effectués sur main doivent tous être signés <br>
 - `Require deployments to succeed before merging` <br>
-*to complete* <br>
+Non utilisé pour notre cas <br>
 - `Allow force pushes` <br>
 Nous autorise à effectuer des pushs forcés. <br>
 - `Specify who can force push` <br>
