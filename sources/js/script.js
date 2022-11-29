@@ -2,11 +2,11 @@ const elem = document.createElement('div')
 elem.setAttribute('id', 'main')
 document.body.appendChild(elem)
 
-const heading = document.createElement('h1')
+const heading = document.createElement("h1")
 heading.innerHTML = 'Hello World!'
 elem.appendChild(heading)
 
-function getOption () {
+function getOption() {
   const obj = document.getElementById('mySelect')
   document.getElementById('demo').innerHTML =
     obj.options[obj.selectedIndex].text
