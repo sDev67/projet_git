@@ -1,0 +1,32 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "*****Check that the commit message meet the Conventional Commit standard******\n"
+
+commit_types="(build|chore|ci|docs|feature|fix|bug|refactor|revert|style|test|wip)"
+convetional_commit_regex="^#[0-9]+.*:.*([A-Za-z0-9]+( [A-Za-z0-9]+)+).*\.$"
+
+red="\e[31m"
+green="\e[32m"
+reset="\e[0m"
+
+# Get the commit message (the parameter we're given is just the path to the
+# temporary file which holds the message).
+commit_message=$(cat "$1")
+
+# Check the message, if we match, all good baby.
+if [[ "$commit_message" =~ $convetional_commit_regex ]]; then
+   printf "${green}Commit message meets Conventional Commit standards ! \n"
+   printf "\n${reset}"
+   exit 0
+fi
+
+# Uh-oh, this is not a conventional commit, show an example and link to the spec.
+printf "${red}The commit message does not meet the Conventional Commit standard\n"
+printf "An example of a valid message is:\n"
+printf "  #19 : Update the README.md file.\n"
+printf "\n"
+printf "More details at: https://www.conventionalcommits.org/en/v1.0.0/#summary \n"
+printf "\n${reset}"
+
+exit 1
