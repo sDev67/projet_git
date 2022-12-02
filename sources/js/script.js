@@ -29,4 +29,4 @@ Select your favorite fruit:
 `
 document.getElementById('myBtn').addEventListener('click', getOption)
 
-console.log('Hello');
+console.log('Hello')
