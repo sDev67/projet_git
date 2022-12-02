@@ -50,4 +50,4 @@ fetch('https://swapi.dev/api/people')
     console.log(error)
   })
 
-console.log('Hello ESGI');
+console.log('Hello ESGI')
